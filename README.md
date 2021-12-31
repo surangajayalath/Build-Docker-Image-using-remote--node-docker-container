@@ -23,3 +23,8 @@ ssh -i sura-key 192.168.143.12
 
 ## Step 3 -> Build Pipeline with docker
 * Copy and paste 
+
+
+# Youtube Links
+* https://www.youtube.com/watch?v=EQRjnCypHDQ
+* https://www.youtube.com/watch?v=tNXuxMgMBJA
