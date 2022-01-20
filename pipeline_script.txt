@@ -8,7 +8,7 @@ node {
         remote.user = suranga
         remote.identityFile = identity
         stage("check"){
-         	  sshCommand remote: remote, command: "docker images"
+         	sshCommand remote: remote, command: "docker images"
             sshCommand remote: remote, command: "docker run hello-world"
             sshCommand remote: remote, command: "docker ps -a"
         }
